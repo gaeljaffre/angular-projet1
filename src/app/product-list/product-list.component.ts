@@ -13,6 +13,11 @@ export class ProductListComponent {
   share() {
     window.alert('The product has been shared!');
   }
+
+  afficherPrix(prix) {
+    window.alert('Le prix est de ' + prix + " €");
+  }
+
 }
 
 
