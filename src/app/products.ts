@@ -16,7 +16,6 @@ export const products = [
   },
   {
     name: 'Nokia 3210',
-    price: 9,
     description: 'Vintage phone'
   }
 

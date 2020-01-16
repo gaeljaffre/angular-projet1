@@ -18,6 +18,10 @@ export class ProductListComponent {
     window.alert('Le prix est de ' + prix + " €");
   }
 
+  receptionNotification(seuil) {
+    window.alert("Vous recevrez une notification quand le produit descendra a moins de " + seuil + " €");
+  }
+
 }
 
 

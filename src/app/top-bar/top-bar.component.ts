@@ -12,6 +12,10 @@ export class TopBarComponent implements OnInit {
   ngOnInit() {
   }
 
+  achat() {
+    window.alert("Pas encore implémenté !");
+  }
+
 }
 
 

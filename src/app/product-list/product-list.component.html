@@ -13,7 +13,13 @@
     Partager
   </button>
   &nbsp;
-  <button (click)="afficherPrix(product.price)">
+  <app-product-alerts
+    [product]="product"
+    [seuil]=650
+    (notify)="receptionNotification(650)">
+  </app-product-alerts>
+  &nbsp;
+  <button (click)="afficherPrix(product.price)" [disabled]="!product.price">
     Prix
   </button>
 

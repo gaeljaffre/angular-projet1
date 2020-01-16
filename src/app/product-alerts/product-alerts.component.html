@@ -1,0 +1,3 @@
+<p *ngIf="product.price > seuil">
+  <button (click)="notify.emit()">Notifiez-moi ( <= {{seuil}} €) : prix actuel = {{ product.price }}</button>
+</p>
